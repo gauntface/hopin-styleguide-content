@@ -5,5 +5,5 @@ This repo contains the files for a styleguide that can be used to display theme 
 ## Installing with Hugo
 
 ```
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git content/styleguide
+git submodule add https://github.com/gauntface/hopin-styleguide-content.git content/styleguide
 ```
