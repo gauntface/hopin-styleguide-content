@@ -1,5 +1,7 @@
 ---
 title: "Colors"
+ImgSrc: ""
+ImgAlt: "Colors icon"
 ---
 
 # Colors
