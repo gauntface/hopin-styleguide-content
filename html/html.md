@@ -1,7 +1,10 @@
 ---
 title: "HTML Elements"
 cardContent: "{ }"
-weight: 1
+weight: 3
+menu: 
+  styleguide:
+    parent: "Elements"
 ---
 
 # HTML Elements

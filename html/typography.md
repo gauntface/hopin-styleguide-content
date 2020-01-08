@@ -1,5 +1,10 @@
 ---
 title: "Typography"
+weight: 3
+ExcludeFromHome: true
+menu: 
+  styleguide:
+    parent: "Elements"
 ---
 
 # Typography

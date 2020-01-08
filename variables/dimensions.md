@@ -1,7 +1,10 @@
 ---
 title: "Dimensions"
 cardPartial: "svg/dimensions-symbol.svg"
-weight: 1
+weight: 2
+menu: 
+  styleguide:
+    parent: 'Variables'
 ---
 
 # Dimensions

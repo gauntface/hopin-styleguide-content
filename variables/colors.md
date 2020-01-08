@@ -1,7 +1,10 @@
 ---
 title: "Colors"
 cardPartial: "svg/colors-symbol.svg"
-weight: 1
+weight: 2
+menu: 
+  styleguide:
+    parent: 'Variables'
 ---
 
 # Colors

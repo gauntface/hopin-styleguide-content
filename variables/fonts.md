@@ -1,7 +1,10 @@
 ---
 title: "Fonts"
 cardContent: "ABC"
-weight: 1
+weight: 2
+menu: 
+  styleguide:
+    parent: 'Variables'
 ---
 
 # Fonts

@@ -1,5 +1,6 @@
 ---
 title: Layouts
 cardPartial: "svg/layouts-symbol.svg"
-weight: 1
+weight: 5
+menu: 'styleguide'
 ---
