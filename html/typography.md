@@ -11,7 +11,7 @@ menu:
 
 Below is a set of example HTML with it's font information added at runtime.
 
-<section class="__hopin__js-typography">
+<section class="n-hopin-js-typography">
     <h1>Header 1</h1>
     <h2>Header 2</h2>
     <h3>Header 3</h3>
