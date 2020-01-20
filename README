@@ -4,6 +4,14 @@ This repo contains the files for a styleguide that can be used to display theme 
 
 ## Installing with Hugo
 
+### Step 1A: Git submodule over SSH
+
 ```
 git submodule add git@github.com:gauntface/hopin-styleguide-content.git content/styleguide
+```
+
+### Step 1B: Git submodule over HTTP
+
+```
+git submodule add https://github.com/gauntface/hopin-styleguide-content.git content/styleguide
 ```
