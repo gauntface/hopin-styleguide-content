@@ -13,4 +13,4 @@ The dimension list is derived from CSS variables defined in CSS files ending in 
 
 {{< load-static-css suffix="dimensions.css" >}}
 
-<div class="n-hopin c-dimensions-grid js-dimensions-grid"></div>
+<div class="n-hopin-c-dimensions-grid n-hopin-js-dimensions-grid"></div>

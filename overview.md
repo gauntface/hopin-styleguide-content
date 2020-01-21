@@ -32,4 +32,4 @@ The `type` of a selector should be one of the following:
 - `l` Layout
 - `u` Utility
 
-<div class='n-hopin js-classnames'></div>
+<div class='n-hopin-js-classnames'></div>
