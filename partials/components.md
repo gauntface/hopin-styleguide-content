@@ -7,4 +7,4 @@ menu:
     parent: 'Partials'
 ---
 
-{{< load-components >}}
+{{< load-partials (dict "subdir" "components" ) >}}

@@ -6,3 +6,5 @@ menu:
   styleguide:
     parent: 'Partials'
 ---
+
+{{< load-partials (dict "subdir" "layouts" ) >}}
