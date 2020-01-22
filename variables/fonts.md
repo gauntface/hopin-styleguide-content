@@ -13,4 +13,4 @@ The fonts list is derived from CSS variables defined in CSS files ending in `fon
 
 {{< load-static-css suffix="fonts.css" >}}
 
-<div class="n-hopin-c-dimensions-grid n-hopin-js-fonts-grid"></div>
+{{< load-partial "components/styleguide-fonts-grid" >}}

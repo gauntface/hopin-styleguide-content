@@ -11,33 +11,34 @@ menu:
 
 Below is a set of example HTML that should be typically supported.
 
-<h1>Header 1</h1>
+# Header 1
 
-<h2>Header 2</h2>
+## Header 2
 
-<h3>Header 3</h3>
+### Header 3
 
-<h4>Header 4</h4>
+#### Header 4
 
-<h5>Header 5</h5>
+##### Header 5
 
-<h6>Header 6</h6>
+###### Header 6
 
-<p>This is <strong>body text</strong> which <q>can</q> contain <a href="#">inline links</a>
-as well as <code>inline code</code>.</p>
+This is **body text** which *can* contain [inline links](#)
+as well as `inline code`.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
 do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
 dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
 proident, sunt in culpa qui officia deserunt mollit anim id 
-est laborum.</p>
+est laborum.
 
 ```
 This is a code block
 ```
+
 
 ```javascript
 console.log('This is JS.');
@@ -81,27 +82,10 @@ echo "This is bash"
 1. This is the third item
 1. This is the last item
 
-<table>
-  <thead>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-      <th>Column 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Row 1, Col 1</td>
-      <td>Row 1, Col 2</td>
-      <td>Row 1, Col 3</td>
-    </tr>
-    <tr>
-      <td>Row 2, Col 1</td>
-      <td>Row 2, Col 2</td>
-      <td>Row 2, Col 3</td>
-    </tr>
-  </tbody>
-</table>
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 
 ## Scalable Elements
 
@@ -123,11 +107,15 @@ This is an example of a gif.
 
 This is an example of a broken image.
 
-<p class="__hopin__u-img"><img src="/gauntface-theme/invalid-image-url" alt="Invalid sized image" width="300" height="300" /></p>
+{{< raw-html >}}
+<img src="/gauntface-theme/invalid-image-url" alt="Invalid sized image" width="300" height="300" />
+{{< / raw-html >}}
 
 This is an example of a broken image without a width or height attribute.
 
-<p class="__hopin__u-img"><img src="/gauntface-theme/invalid-image-url" alt="Invalid image" /></p>
+{{< raw-html >}}
+<img src="/gauntface-theme/invalid-image-url" alt="Invalid image" />
+{{< / raw-html >}}
 
 This is a picture element.
 
@@ -137,29 +125,39 @@ This is a picture element.
 
 Below is a YouTube iframe with a width and height attribute.
 
+{{< raw-html >}}
 <!-- Autoplay and width + height should be removed by hopin-static-site-gen -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x2o-oy0o5Mo?autoplay=1"></iframe>
+{{< / raw-html >}}
 
 Below is a YouTube iframe without a width and height attribute.
 
+{{< raw-html >}}
 <iframe src="https://www.youtube.com/embed/x2o-oy0o5Mo?autoplay=1"></iframe>
+{{< / raw-html >}}
 
 Below is a slideshare iframe without a width and height attribute.
 
+{{< raw-html >}}
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/tOZhdgk62sVxU" width="595" height="485" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+{{< / raw-html >}}
 
 ### Videos
 
 A video with width and height set.
 
+{{< raw-html >}}
 <video width="480" height="480" autoplay muted loop playsinline>
   <source src="https://i.giphy.com/media/687qS11pXwjCM/giphy.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
+{{< / raw-html >}}
 
 A video without any attributes.
 
+{{< raw-html >}}
 <video>
   <source src="https://i.giphy.com/media/687qS11pXwjCM/giphy.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
+{{< / raw-html >}}
