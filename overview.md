@@ -32,4 +32,6 @@ The `type` of a selector should be one of the following:
 - `l` Layout
 - `u` Utility
 
+{{< load-static-css suffix="" >}}
+
 {{< load-partial "components/styleguide-overview-classnames.html" >}}
